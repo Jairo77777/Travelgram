@@ -6,7 +6,13 @@ header{
   gap: 32px;
 }
 #profile > div{
-  max-width: 384px;
+  max-width: 395px;
+}
+#profile img{
+  width: 176px;
+  height: 176px;
+  object-fit: cover;
+  border-radius: 50% ;
 }
 #profile h1{
   color: var(--text-color-primary);
